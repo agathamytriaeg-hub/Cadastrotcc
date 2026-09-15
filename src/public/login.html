@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Reaproveita - Login</title>
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <section class="lado-esquerdo">
+
+            <div class="logo">
+                <div class="logo-icon">♻</div>
+                <span>Reaproveita</span>
+            </div>
+
+            <div class="conteudo">
+                <span class="mini-titulo">🌿 BEM-VINDO</span>
+
+                <h1>
+                    Transforme seus
+                    <strong>ingredientes</strong>
+                    em novas possibilidades.
+                </h1>
+
+                <p>
+                    Entre na sua conta e descubra receitas,
+                    ideias e formas inteligentes de evitar
+                    o desperdício de alimentos.
+                </p>
+
+                <div class="beneficios">
+                    <div>
+                        <span>🥕</span>
+                        <p>Receitas criativas</p>
+                    </div>
+
+                    <div>
+                        <span>🌱</span>
+                        <p>Menos desperdício</p>
+                    </div>
+
+                    <div>
+                        <span>🍎</span>
+                        <p>Mais aproveitamento</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="lado-direito">
+
+            <div class="folhas">🌿</div>
+
+            <div class="login-box">
+
+                <div class="icone-login">🥬</div>
+
+                <h2>Olá novamente!</h2>
+
+                <p class="subtitulo">
+                    Entre para continuar no Reaproveita
+                </p>
+
+                <form id="loginForm">
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+
+                        <div class="input-box">
+                            <span>✉</span>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Digite seu e-mail"
+                                required
+                            >
+                        </div>
+                    </div>
+
+
+                    <div class="campo">
+                        <label for="senha">Senha</label>
+
+                        <div class="input-box">
+                            <span>🔒</span>
+
+                            <input
+                                type="password"
+                                id="senha"
+                                placeholder="Digite sua senha"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                class="mostrar"
+                                id="mostrarSenha"
+                            >
+                                👁
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="opcoes">
+                        <label>
+                            <input type="checkbox">
+                            Lembrar de mim
+                        </label>
+
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+
+
+                    <button class="btn-login" type="submit">
+                        Entrar
+                        <span>➜</span>
+                    </button>
+
+                    <p id="mensagem"></p>
+
+                </form>
+
+
+                <div class="separador">
+                    <span>ou</span>
+                </div>
+
+
+                <p class="cadastro">
+                    Ainda não possui uma conta?
+                    <a href="cadastro.html">Criar conta</a>
+                </p>
+
+            </div>
+
+            <p class="rodape">
+                🌱 Pequenas escolhas fazem a diferença.
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>

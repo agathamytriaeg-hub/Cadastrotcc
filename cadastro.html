@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="login.css">
+
+    <title>Reaproveita - Cadastro</title>
+
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <!-- LADO ESQUERDO -->
+
+        <section class="lado-esquerdo">
+
+            <div class="logo">
+
+                <div class="logo-icon">♻</div>
+
+                <span>Reaproveita</span>
+
+            </div>
+
+
+            <div class="conteudo">
+
+                <span class="mini-titulo">
+                    🌿 FAÇA PARTE
+                </span>
+
+                <h1>
+                    Comece a
+                    <strong>reaproveitar</strong>
+                    seus alimentos.
+                </h1>
+
+                <p>
+                    Crie sua conta no Reaproveita e descubra
+                    receitas, ideias e formas inteligentes
+                    de evitar o desperdício de alimentos.
+                </p>
+
+
+                <div class="beneficios">
+
+                    <div>
+                        <span>🥕</span>
+                        <p>Receitas criativas</p>
+                    </div>
+
+                    <div>
+                        <span>🌱</span>
+                        <p>Menos desperdício</p>
+                    </div>
+
+                    <div>
+                        <span>🍎</span>
+                        <p>Mais aproveitamento</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LADO DIREITO -->
+
+        <section class="lado-direito">
+
+            <div class="folhas">
+                🌿
+            </div>
+
+
+            <div class="login-box">
+
+                <div class="icone-login">
+                    🥬
+                </div>
+
+                <h2>Crie sua conta!</h2>
+
+                <p class="subtitulo">
+                    Cadastre-se para começar no Reaproveita
+                </p>
+
+
+                <form id="cadastroForm">
+
+
+                    <!-- NOME -->
+
+                    <div class="campo">
+
+                        <label for="nome">
+                            Nome
+                        </label>
+
+                        <div class="input-box">
+
+                            <span>👤</span>
+
+                            <input
+                                type="text"
+                                id="nome"
+                                placeholder="Digite seu nome"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- E-MAIL -->
+
+                    <div class="campo">
+
+                        <label for="email">
+                            E-mail
+                        </label>
+
+                        <div class="input-box">
+
+                            <span>✉</span>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Digite seu e-mail"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SENHA -->
+
+                    <div class="campo">
+
+                        <label for="senha">
+                            Senha
+                        </label>
+
+                        <div class="input-box">
+
+                            <span>🔒</span>
+
+                            <input
+                                type="password"
+                                id="senha"
+                                placeholder="Digite sua senha"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                class="mostrar"
+                                id="mostrarSenha"
+                            >
+                                👁
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CONFIRMAR SENHA -->
+
+                    <div class="campo">
+
+                        <label for="confirmarSenha">
+                            Confirmar senha
+                        </label>
+
+                        <div class="input-box">
+
+                            <span>🔒</span>
+
+                            <input
+                                type="password"
+                                id="confirmarSenha"
+                                placeholder="Digite a senha novamente"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                class="mostrar"
+                                id="mostrarConfirmarSenha"
+                            >
+                                👁
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- BOTÃO CADASTRAR -->
+
+                    <button
+                        class="btn-login"
+                        type="submit"
+                    >
+
+                        Cadastrar
+
+                        <span>➜</span>
+
+                    </button>
+
+
+                    <!-- MENSAGEM -->
+
+                    <p id="mensagem"></p>
+
+                </form>
+
+
+                <div class="separador">
+                    <span>ou</span>
+                </div>
+
+
+                <p class="cadastro">
+
+                    Já possui uma conta?
+
+                    <a href="login.html">
+                        Entrar
+                    </a>
+
+                </p>
+
+            </div>
+
+
+            <p class="rodape">
+                🌱 Pequenas escolhas fazem a diferença.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="cadastro.js"></script>
+
+</body>
+
+</html>
